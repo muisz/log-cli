@@ -2,6 +2,10 @@ import sys
 import json
 import os
 
+## 
+## python version: 3.x
+##
+
 def get_args():
 	args = sys.argv
 	return args[1:]
