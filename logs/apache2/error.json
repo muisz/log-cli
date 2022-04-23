@@ -1,0 +1,1 @@
+[{"log": "[Sat Apr 23 14:05:30.649460 2022] [mpm_event:notice] [pid 1081:tid 140113852234688] AH00489: Apache/2.4.29 (Ubuntu) mod_wsgi/4.5.17 Python/3.6 configured -- resuming normal operations"}, {"log": "[Sat Apr 23 14:05:30.649503 2022] [core:notice] [pid 1081:tid 140113852234688] AH00094: Command line: '/usr/sbin/apache2'"}, {"log": ""}]
