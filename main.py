@@ -46,6 +46,12 @@ def main():
 		save_log = None
 		output_key = '-t'
 		output_file_key = '-o'
+		help_key = '-h'
+
+		if help_key in args:
+			print('usage:\n\tpython3 main.py <logfile> [-h] [-t <format>] [-o <output file>]')
+			print('valid format:\n\tJSON or text')
+			sys.exit(0)
 
 		if output_key in args:
 			t_index = args.index(output_key)
